@@ -13,7 +13,7 @@ class App:
 		self.destA = destA
 		self.destB = destB
 
-		self.button = Button(frame, text="Quit", fg="red", command=frame.quit)
+		self.button = Button(frame, text="Cancel", command=frame.quit)
 		self.button.pack(side=LEFT)
 		self.sortAButton = Button(frame, text="Sort to "+argv[2], command=self.sortA)
 		self.sortAButton.pack(side=LEFT)
